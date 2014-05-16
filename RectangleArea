@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+import javax.print.DocFlavor.INPUT_STREAM;
+
+
+public class RectangleArea {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int firstSide = 0;
+		int secondSide = 0;
+		firstSide = sc.nextInt();
+		secondSide = sc.nextInt();
+		int side = firstSide * secondSide;
+		System.out.println(side);
+
+	}
+
+}
