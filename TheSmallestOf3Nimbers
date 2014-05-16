@@ -1,0 +1,16 @@
+import java.math.MathContext;
+import java.util.Scanner;
+
+
+public class TheSmallestOf3Nimbers {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double firstNumber = Double.parseDouble(sc.next());
+		double secondNumber = Double.parseDouble(sc.next());
+		double thirdNumber = Double.parseDouble(sc.next());
+		double smallestNumber = Math.min(firstNumber, Math.min(secondNumber, thirdNumber));
+		System.out.println(smallestNumber);
+	}
+
+}
